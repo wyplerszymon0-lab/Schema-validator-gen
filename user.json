@@ -1,0 +1,14 @@
+{
+  "id": 1,
+  "name": "Alice",
+  "email": "alice@example.com",
+  "age": 30,
+  "active": true,
+  "bio": null,
+  "tags": ["admin", "beta-tester"],
+  "address": {
+    "street": "123 Main St",
+    "city": "Warsaw",
+    "zip": "00-001"
+  }
+}
