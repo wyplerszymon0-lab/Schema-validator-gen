@@ -1,0 +1,27 @@
+{
+  "name": "schema-validator-gen",
+  "version": "1.0.0",
+  "description": "Generate Zod schemas from JSON examples or natural language descriptions. CLI + library API.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "schema-gen": "./dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "npx ts-node tests/infer.test.ts",
+    "cli": "npx ts-node src/cli.ts"
+  },
+  "keywords": ["zod", "schema", "generator", "typescript", "openai", "json", "validation"],
+  "license": "MIT",
+  "peerDependencies": {
+    "zod": ">=3.0.0"
+  },
+  "optionalDependencies": {
+    "openai": ">=4.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "ts-node": "^10.9.0"
+  }
+}
