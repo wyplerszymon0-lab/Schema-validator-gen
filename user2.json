@@ -1,0 +1,9 @@
+{
+  "id": 2,
+  "name": "Bob",
+  "email": "bob@example.com",
+  "age": 25,
+  "active": false,
+  "bio": "Backend developer",
+  "tags": []
+}
